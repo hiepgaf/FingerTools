@@ -1,4 +1,6 @@
-package com.example.fingertools;
+package com.hieptran.fingertools;
+
+import com.example.fingertools.R;
 
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
