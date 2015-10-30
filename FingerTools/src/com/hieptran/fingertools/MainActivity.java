@@ -1,14 +1,18 @@
 package com.hieptran.fingertools;
 
-import com.example.fingertools.R;
-
-import android.support.v7.app.ActionBarActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.example.fingertools.R;
+import com.samsung.android.sdk.pass.Spass;
+import com.samsung.android.sdk.pass.SpassFingerprint;
 
-public class MainActivity extends ActionBarActivity {
+
+public class MainActivity extends Activity {
+private SpassFingerprint mSpassFingerprint;
+private Spass mSpass;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
